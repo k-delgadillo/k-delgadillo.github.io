@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Integral Connections</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <table width = "100%">
+        <tr>
+            <td>
+
+                <table>
+                    <tr>
+                        <td>
+                            <button id="00" class="button" onclick="togglePress('00')">
+                                <img src="images/00.png" alt="Button Image" class="button-image">
+                            </button>
+                        </td>
+                        <td>
+                            <button id="01" class="button" onclick="togglePress('01')">
+                                <img src="images/01.png" alt="Button Image" class="button-image">
+                            </button>
+                        </td>
+                        <td>
+                            <button id="02" class="button" onclick="togglePress('02')">
+                                <img src="images/02.png" alt="Button Image" class="button-image">
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button id="10" class="button" onclick="togglePress('10')">
+                                <img src="images/10.png" alt="Button Image" class="button-image">
+                            </button>
+                        </td>
+                        <td>
+                            <button id="11" class="button" onclick="togglePress('11')">
+                                <img src="images/11.png" alt="Button Image" class="button-image">
+                            </button>
+                        </td>
+                        <td>
+                            <button id="12" class="button" onclick="togglePress('12')">
+                                <img src="images/12.png" alt="Button Image" class="button-image">
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button id="20" class="button" onclick="togglePress('20')">
+                                <img src="images/20.png" alt="Button Image" class="button-image">
+                            </button>
+                        </td>
+                        <td>
+                            <button id="21" class="button" onclick="togglePress('21')">
+                                <img src="images/21.png" alt="Button Image" class="button-image">
+                            </button>
+                        </td>
+                        <td>
+                            <button id="22" class="button" onclick="togglePress('22')">
+                                <img src="images/22.png" alt="Button Image" class="button-image">
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button id="30" class="button" onclick="togglePress('30')">
+                                <img src="images/30.png" alt="Button Image" class="button-image">
+                            </button>
+                        </td>
+                        <td>
+                            <button id="31" class="button" onclick="togglePress('31')">
+                                <img src="images/31.png" alt="Button Image" class="button-image">
+                            </button>
+                        </td>
+                        <td>
+                            <button id="32" class="button" onclick="togglePress('32')">
+                                <img src="images/32.png" alt="Button Image" class="button-image">
+                            </button>
+                        </td>
+                    </tr>
+                </table>
+                <br />
+
+                <table>
+                    <tr>
+                        <button onclick="checkAnswer(); return false;">Check Your Answer</button>
+                    </tr>
+                    <tr>
+                        <button onclick="location.reload();">Reset</button>
+                    </tr>
+                </table>
+            </td>
+
+            <td>
+                Welcome to the integral connections!<br/>
+                There are four connections, each <br/>
+                consisting of three different integrals.<br/> 
+                The connections could be based on <br/>
+                the original problem or the solution, <br/>
+                so some problems need to be solved in <br/>
+                order to get the connection. To see the <br/>
+                step-by-step explanation for each problem, <br/>
+                right click on the integral of your choice.
+            </td>
+        </tr>
+    </table>
+    <div id = "contextMenu">
+       <div class = "menu-item" onClick="window.open(index)">
+       </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
