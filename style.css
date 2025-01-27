@@ -40,24 +40,3 @@ table, th, td {
     border: 1px solid;
     align-items: center;
 }
-/* Basic styling for the menu */
-#contextMenu {
-    display: none;
-    position: absolute;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-    z-index: 9999;
-}
-#contextMenu ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-}
-#contextMenu li {
-    padding: 8px 12px;
-    cursor: pointer;
-}
-#contextMenu li:hover {
-    background-color: #ddd;
-}
